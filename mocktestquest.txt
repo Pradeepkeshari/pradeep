@@ -1,0 +1,33 @@
+class Test2
+{
+ public static void main()
+ {
+  ArrayList al = new ArrayList();
+
+  HashSet hs = new HashSet();
+
+  al.add("Ranci");
+  al.add("Patna");
+  al.add("True");
+  al.add("123");
+  al.add("782.35");
+  al.add("9854");
+  al.add("123");
+  al.add("2.5");
+  al.add("Patna");
+
+  for(Object ob:al)
+  {
+   System.out.println(ob);
+  }
+  hs.add("Patna");
+  hs.add("2.5");
+  hs.add("123");
+  hs.add("9854");
+  hs.add("782.35");
+  hs.add("123");
+  hs.add("True");
+  hs.add("Patna");
+  hs.add("Ranchi");
+
+  

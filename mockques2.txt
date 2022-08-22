@@ -1,0 +1,10 @@
+String s1 = "123456"
+convert it into int 
+
+class Test
+{
+ String s1 = "123456";
+ public static void main()
+ {
+  String s = new String(123456);
+  

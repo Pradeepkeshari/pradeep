@@ -1,0 +1,16 @@
+Annapurna, 10, 58.25, pradeep , true, false, raj, pradeep, 10
+
+
+class ArrayList
+{
+ string [] s = {Annapurna,pradeep,true,false,raj,pradeep};
+ int [] i = {10,10};
+ double [] d = {58.25};
+ public static void main()
+ {
+  ArrayList ar = new ArrayList();
+  ar.add(s);
+  ar.add(i);
+  ar.add(d);
+  
+  

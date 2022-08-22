@@ -1,0 +1,11 @@
+convert it to primitive value
+
+class TestQuestion
+{
+ public static void main()
+ {
+  String s1 = "true";
+  Boolean ref= Boolean.parseBoolean();
+  System.out.println("ref" = +ref);
+ }
+}
